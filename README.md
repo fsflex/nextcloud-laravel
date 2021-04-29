@@ -7,7 +7,7 @@ Based on https://github.com/pascalbaljetmedia/laravel-webdav
 Via Composer
 
 ```bash
-$ composer require jedlikowski/laravel-nextcloud
+$ composer require toka/laravel-nextcloud
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ Register the service provider in your app.php config file:
 
 'providers' => [
     ...
-    Jedlikowski\NextCloudStorage\NextCloudServiceProvider::class
+    Toka\NextCloudStorage\NextCloudServiceProvider::class
     ...
 ];
 ```
@@ -33,8 +33,8 @@ Create a NextCloud filesystem disk:
 	...
 	'nextcloud' => [
 	    'driver'     => 'nextcloud',
-	    'baseUri'    => 'https://mywebdavstorage.com',
-	    'userName'   => 'johndoe',
+	    'baseUri'    => 'https://cloud.example.com',
+	    'userName'   => 'username',
 	    'password'   => 'secret',
 	    'pathPrefix' => '', // provide a subfolder name if your NextCloud instance isn't running directly on a domain, e.g. https://example.com/drive
 	],
@@ -44,7 +44,7 @@ Create a NextCloud filesystem disk:
 
 ## Security
 
-If you discover any security related issues, please email jakub.jedlikowski@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email girangopro@gmail.com instead of using the issue tracker.
 
 ## Credits
 
@@ -55,5 +55,5 @@ If you discover any security related issues, please email jakub.jedlikowski@gmai
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[link-author]: https://github.com/jedlikowski
+[link-author]: https://github.com/toka
 [link-author-2]: https://github.com/pascalbaljet
