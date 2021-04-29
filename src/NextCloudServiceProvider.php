@@ -1,6 +1,6 @@
 <?php
 
-namespace Jedlikowski\NextCloudStorage;
+namespace Toka\NextCloudStorage;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;

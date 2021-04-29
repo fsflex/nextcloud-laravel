@@ -1,8 +1,8 @@
 {
-    "name": "jedlikowski/laravel-nextcloud",
+    "name": "toka/laravel-nextcloud",
     "type": "library",
     "version": "1.0.0",
-    "description": "Laravel 5 NextCloud Filesystem",
+    "description": "Laravel NextCloud Filesystem",
     "keywords": [
         "jedlikowski",
         "laravel-nextcloud"
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "~5.6|^7.0",
-        "illuminate/filesystem": "5.0.* || 5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.*",
+        "illuminate/filesystem": ">=5.8.*",
         "league/flysystem-webdav": "^1.0.8",
         "jakeasmith/http_build_url": "^1"
     },
@@ -41,7 +41,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jedlikowski\\NextCloudStorage\\NextCloudServiceProvider"
+                "Toka\\NextCloudStorage\\NextCloudServiceProvider"
             ]
         }
     }
