@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jedlikowski\\NextCloudStorage\\": "src"
+            "Toka\\NextCloudStorage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jedlikowski\\NextCloudStorage\\Tests\\": "tests"
+            "Toka\\NextCloudStorage\\Tests\\": "tests"
         }
     },
     "scripts": {
