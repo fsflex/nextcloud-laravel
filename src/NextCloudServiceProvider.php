@@ -4,7 +4,7 @@ namespace Toka\NextCloudStorage;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
-use Jedlikowski\NextCloudStorage\NextCloudAdapter;
+use Toka\NextCloudStorage\NextCloudAdapter;
 use League\Flysystem\Filesystem;
 use Sabre\DAV\Client;
 
