@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "illuminate/filesystem": ">=5.8.*",
+        "illuminate/filesystem": "8.40.*",
         "league/flysystem-webdav": "^1.0.8",
         "jakeasmith/http_build_url": "^1"
     },
