@@ -1,7 +1,7 @@
 {
     "name": "toka/laravel-nextcloud",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Laravel NextCloud Filesystem",
     "keywords": [
         "toka",
